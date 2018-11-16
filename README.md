@@ -1,0 +1,14 @@
+# Periodic-table-of-Prime-number-intervals
+“We must try to identify the studied objects as objects-systems and at the same time, without fear of any accusations, boldly build systems of objects of the same kind. The results of this approach will more than pay for the work.” [Yu. a. Urmantsev, GENERAL SYSTEMS THEORY (Yu. A. Urmantsev, systems theory)]  We compute a series of consecutive primes. Each Prime number we put in line three parameters. The first and second are the difference of this number with two near Prime numbers. The third parameter is the number of the combination of the first and second parameters in the series. Find the maximum (Imax) of the first and second parameters. Create a table of size (Imax * Imax). Fill in the table with the third parameter in accordance with the first and second parameters, i.e. the first parameter is the row number, the second column number.  The table shows the frequency of filling. In rows and columns every third number is empty. Combinations of the first and second parameters are obtained in two variants. Option 1-the first parameter is the difference of the Prime number with the previous Prime number, the second parameter is the difference of the next Prime number with the given Prime number. Option 2-are taken sequentially pairs of differences of primes. The frequency in both versions is the same. Prime numbers with three parameters are written to the file primesInterval3.txt. Tables are displayed and written to files tabInterval1.txt и tabInterval2.txt.
+
+We compute a series of consecutive primes. Each Prime number we put in line three parameters. The first and second are the difference of this number with two near Prime numbers. The third parameter is the number of the combination of the first and second parameters in the series. Find the maximum (Imax) of the first and second parameters. Create a table of size (Imax * Imax). Fill in the table with the third parameter in accordance with the first and second parameters, i.e. the first parameter is the row number, the second column number. 
+The table shows the frequency of filling. In rows and columns every third number is empty.
+Combinations of the first and second parameters are obtained in two variants.
+Option 1-the first parameter is the difference of the Prime number with the previous Prime number, the second parameter is the difference of the next Prime number with the given Prime number.
+Option 2-are taken sequentially pairs of differences of primes.
+The frequency in both versions is the same.
+Prime numbers with three parameters are written to the file primesInterval3.txt.
+Tables are displayed and written to files tabInterval1.txt и tabInterval2.txt.
+Theory description on the website:
+https://www.academia.edu/37720569/Periodic_table_of_Prime_number_intervals
+
